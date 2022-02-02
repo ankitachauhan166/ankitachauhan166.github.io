@@ -4,12 +4,17 @@
     line-height: 60px;
     background-color: #f5f5f5;
 }
+.home {
+    position: relative;
+    margin-top: 100px;
+}
 .container {
     display: flex;
 }
 .profile {
     max-height: 250px;
     max-width: 250px;
+    border-radius: 50%;
 }
 .row {
     margin-bottom: 20px;
@@ -54,4 +59,14 @@
 .contact-info a, .social-info a {
     text-decoration: none;
     color: #333;
+}
+@media only screen and (max-width: 991px) {
+    .home {
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .home .row {
+        flex-direction: column;
+    }
 }
