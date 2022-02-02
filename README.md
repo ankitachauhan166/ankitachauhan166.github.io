@@ -2,7 +2,7 @@
 
 # Portfolio Page
 ## Description
-In this assignment I have tried to show the things I learned in past few weeks. I have displayed some of my work using concepts of javascript, css3 and html5.
+In this assignment I have tried to show the things I learned in past few weeks. I have displayed some of my work using concepts of javascript, css3 and html5. It is responsive. Have used bootstrap, flex box, grid system for layout
 ## How to run
 <ul>
   <li>fork the repo to your github account</li>
